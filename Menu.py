@@ -58,7 +58,7 @@ buttons = [
     ("Situation Of Doctors", situation),
     ("Mental Analysis", analysis),
     ("Made By",credit),
-    ("solution",solution),
+    ("Solution",solution),
 
   
 ]
