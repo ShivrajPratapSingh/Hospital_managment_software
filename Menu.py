@@ -2,6 +2,8 @@ import tkinter as tk
 from tkinter import ttk
 from PIL import Image, ImageTk
 
+def solution():
+    pass
 def  registor():
     pass
 
@@ -55,7 +57,9 @@ buttons = [
     ("Registor Doctors", registor),
     ("Situation Of Doctors", situation),
     ("Mental Analysis", analysis),
-    ("Made By",credit)
+    ("Made By",credit),
+    ("solution",solution),
+
   
 ]
 
