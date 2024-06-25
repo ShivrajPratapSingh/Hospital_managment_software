@@ -30,7 +30,7 @@ header_frame = ttk.Frame(root)
 header_frame.pack(pady=20)
 
 # Load and display the logo
-logo_path = "logo2.png"  # replace with your logo file path
+logo_path = "logo.png"  # replace with your logo file path
 try:
     logo_image = Image.open(logo_path)
     logo_image = logo_image.resize((150, 150), Image.Resampling.LANCZOS)  # Updated attribute
