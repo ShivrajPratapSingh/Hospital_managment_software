@@ -1,20 +1,24 @@
 import tkinter as tk
 from tkinter import ttk
 from PIL import Image, ImageTk
-
+import input_parameters as ip
+import analysis as an
+import credits
 def solution():
     pass
 def  registor():
     pass
-
 def situation():
-    pass
+    ip.main()
+
 
 def analysis():
-    pass
+    file_path = 'doctor_mental_health.csv'  # Path to your CSV file
+
+    an.run_mental_health_app(file_path)
 
 def credit():
-    pass
+    credits.main()
 # Initialize the main window
 root = tk.Tk()
 root.title("Hospital Management System")
@@ -58,7 +62,7 @@ buttons = [
     ("Situation Of Doctors", situation),
     ("Mental Analysis", analysis),
     ("Made By",credit),
-    ("Solution",solution),
+    
 
   
 ]

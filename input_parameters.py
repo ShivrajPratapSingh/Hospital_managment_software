@@ -5,18 +5,21 @@ import os
 
 # Global variables
 filename = 'doctor_mental_health.csv'  # The CSV file name where data will be stored
-parameters = [  # List of parameters to be collected for each doctor's mental health
-    "Doctor's Name",
-    "Stress Level (1-10)",
-    "Working Hours per Week",
-    "Night Shifts per Month",
-    "Patient Load per Day",
-    "Work-Life Balance (1-10)",
-    "Job Satisfaction (1-10)",
-    "Support from Colleagues (1-10)",
-    "Access to Mental Health Resources (Yes/No)",
-    "Recent Major Life Events (Yes/No)"
-]
+parameters = [
+    'doctor_id', 
+    'name', 
+    'stress_level', 
+    'workload',
+    'sleep_quality',
+    'physical_activity', 
+    'support_system', 
+    'nutrition', 
+    'job_satisfaction', 
+    'anxiety_level', 
+    'depression_level', 
+    'burnout_level']
+        
+
 
 # Function to create CSV file if it doesn't exist
 def create_csv():
