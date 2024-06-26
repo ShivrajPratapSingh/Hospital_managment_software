@@ -4,10 +4,11 @@ from PIL import Image, ImageTk
 import input_parameters as ip
 import analysis as an
 import credits
+import registor  as rs
 def solution():
     pass
 def  registor():
-    pass
+    rs.main()
 def situation():
     ip.main()
 
