@@ -11,9 +11,10 @@ def situation():
 
 
 def analysis():
-    file_path = 'doctor_mental_health.csv'  
+    base_filename = 'doctor_mental_health_'
 
-    an.run_mental_health_app(file_path)
+    data = an.load_data_from_files('doctor_mental_health_')
+    an.run_mental_health_app(base_filename)
 
 def credit():
     credits.main()
